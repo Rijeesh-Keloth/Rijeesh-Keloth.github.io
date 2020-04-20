@@ -5,6 +5,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+	
+	
 	<head>
 		<title>Rijeesh's Webpage by HTML5 UP</title>
 		<meta charset="utf-8" />
@@ -12,6 +14,25 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
+		
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+		
 
 		<!-- Nav -->
 			<nav id="nav">
@@ -109,6 +130,7 @@
 
 
  </p>
+								<button onclick="myFunction()" id="myBtn">Read more</button>
 							</section>
 						</div>
 						
@@ -139,6 +161,7 @@
 									taking courses similar to those 
 									I have had at CUSAT and MCC, but certainly along with the experimental particle physics
 									courses in future. </span> </p>
+								<button onclick="myFunction()" id="myBtn">Read more</button>
 							</section>
 						</div>
 					
