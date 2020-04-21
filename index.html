@@ -130,7 +130,7 @@
 								<span class="icon featured fa-book"></span>
 								<h3>Teaching</h3>
 								<p>     I have been fortunate enough to be a teaching fellow 
-									in a number of courses at the Malabar Christian College. <span id="dots">...</span><span id="more"> In each of these courses, the institution/professor offered
+									in a number of courses at the Malabar Christian College. <span id="dots1">...</span><span id="more1"> In each of these courses, the institution/professor offered
 									me a great chance to lead sessions in addition to holding office hours, constructing exams, and grading papers.
 									I have also had the opportunity to be a co-instructor in three courses: Mathematical Physics, Quantum Mechanics, 
 									Electrodynamics and Electronics. Each course presented a wonderful opportunity to learn and to grow myself as a teacher.
@@ -153,7 +153,22 @@
 									I have had at CUSAT and MCC, but certainly along with the experimental particle physics
 									courses in future. </span></p>
 							
-							<button onclick="myFunction()" id="myBtn">Read more</button>
+							<button onclick="myFunction1()" id="myBtn1">Read more</button>
+								function myFunction1(){
+									       var dots = document.getElementById("dots1");
+									       var moreText = document.getElementById("more1");
+									       var btnText = document.getElementById("myBtn1");
+									       if (dots.style.display === "none") {
+									       dots.style.display = "inline";
+									       btnText.innerHTML = "Read more"; 
+									       moreText.style.display = "none";
+									       } else {
+									       dots.style.display = "none";
+									       btnText.innerHTML = "Read less"; 
+									       moreText.style.display = "inline";
+									       }
+									       }
+									       </script>
 		</section>
 						</div>
 					
