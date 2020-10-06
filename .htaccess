@@ -1,4 +1,4 @@
 AuthType Basic
-AuthName "Protected Site"
+AuthName "index.html"
 AuthUserFile /usr/home/Rijeesh-Keloth/.htpasswd
 require valid-user
