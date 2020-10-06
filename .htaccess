@@ -1,4 +1,4 @@
 AuthType Basic
-AuthName "Rijeesh-Keloth.github.io/index.html"
+AuthName "index.html"
 AuthUserFile /Rijeesh-Keloth.github.io/.htpasswd
 require valid-user
